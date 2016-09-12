@@ -12,3 +12,4 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman-cli'
 gem 'middleman-core'
 gem 'middleman-livereload'
+gem 'middleman-blog'
