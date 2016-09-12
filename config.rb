@@ -39,8 +39,18 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 
+  # activate :blog
+  activate :blog do |blog|
+    # Matcher for blog source files
+    blog.sources = "posts/{year}-{month}-{day}-{title}.html"
+    # blog.summary_separator = "<!--more-->"
+    # blog.tag_template = "tag.html"
+    # blog.calendar_template = "calendar.html"
+  end
+
 end
 
 # activate :blog do |blog|
 #   # set options on blog
 # end
+
